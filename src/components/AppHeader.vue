@@ -1,19 +1,13 @@
 <script>
 export default {
-  name: 'DogCare',
- 
- 
+     name: 'AppHeader',
 };
 </script>
 
 <template>
- 
 
 </template>
 
-
-<style lang="scss">
- 
-
+<style>
 
 </style>
