@@ -23,7 +23,7 @@ export default {
                             <img src="../../assets/img/dog-icon.png" id="dog" alt="dog-icon">
                             <p class="ms-2 mt-3">{{ paragraph }}</p>
                         </div>
-                        <h3>{{ title }}</h3>
+                        <h1 class="mb-4">{{ title }}</h1>
                         <p>{{ text }}</p>
                         <p>{{ text }}</p>
 

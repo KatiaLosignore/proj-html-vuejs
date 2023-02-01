@@ -57,7 +57,6 @@ export default {
         padding: 0;
 
         li {
-            list-style-type: none;
             font-weight: bold;
             font-size: 18px;
 

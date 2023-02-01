@@ -2,7 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
-import { headerLinks } from './data';
+import { headerLinks, mainCards } from './data';
 
 export default {
   name: 'DogCare',
@@ -10,6 +10,7 @@ export default {
   data() {
     return {
       headerLinks,
+      mainCards
     }
   }
  
@@ -19,7 +20,7 @@ export default {
 <template>
  
  <app-header :links="headerLinks"></app-header>
- <app-main></app-main>
+ <app-main :cards="mainCards"></app-main>
  <app-footer></app-footer>
 
 </template>
