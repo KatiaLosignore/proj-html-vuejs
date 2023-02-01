@@ -18,7 +18,7 @@ export default {
     <main-jumbotron title="Welcome to DogMilo Pets" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></main-jumbotron>
     <main-about paragraph="About us" title="Welcome DogMilo Pets" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"></main-about>
     <main-service :cards="cards"></main-service>
-    <main-choose></main-choose>
+    <main-choose text="It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout."></main-choose>
 </template>
 
 <style lang="scss" scoped>
