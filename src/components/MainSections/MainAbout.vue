@@ -26,8 +26,6 @@ export default {
                         <h1 class="mb-4">{{ title }}</h1>
                         <p>{{ text }}</p>
                         <p>{{ text }}</p>
-
-
                     </div>
 
                 </div>
