@@ -42,29 +42,23 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 .header-top {
-    height: 80px;
-    padding: 10px;
-    background-color: $green;
-    
+    height: 60px;
+    background-color: $green; 
 }
 
 .header-bottom {
-    padding-top: 10px;
-    height: 100px;
+    padding: 22px 0;
+    height: 120px;
 
     ul {
-        margin: 30px;
         padding: 0;
 
         li {
             list-style-type: none;
             font-weight: bold;
-            font-size: 15px;
+            font-size: 18px;
 
             a {
-                padding: 10px;
-                margin: 0 10px;
-                text-decoration: none;
                 color: $grey;
 
                 &.active {

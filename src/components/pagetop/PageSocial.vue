@@ -8,11 +8,11 @@ export default {
 
     <div class="container">
         <div class="socials">
-            <span class="facebook"><font-awesome-icon icon="fa-brands fa-square-facebook" /></span>
-            <span><font-awesome-icon icon="fa-brands fa-square-pinterest" /></span>
-            <span class="twitter"><font-awesome-icon icon="fa-brands fa-square-twitter" /></span>
-            <span class="linkedin"><font-awesome-icon icon="fa-brands fa-linkedin" /></span>
-            <span class="instagram"><font-awesome-icon icon="fa-brands fa-square-instagram" /></span>
+            <span id="facebook"><font-awesome-icon icon="fa-brands fa-square-facebook" /></span>
+            <span id="pinterest"><font-awesome-icon icon="fa-brands fa-square-pinterest" /></span>
+            <span id="twitter"><font-awesome-icon icon="fa-brands fa-square-twitter" /></span>
+            <span id="linkedin"><font-awesome-icon icon="fa-brands fa-linkedin" /></span>
+            <span id="instagram"><font-awesome-icon icon="fa-brands fa-square-instagram" /></span>
             
         </div>
 
@@ -26,6 +26,29 @@ export default {
 span {
     margin: 0 2px;
     font-size: 20px;
+    cursor: pointer;
+}
+
+#facebook, #pinterest, #twitter, #linkedin, #instagram {
+    color: $white;
+    padding: 0 6px;
+    border-radius: 7px;
+}
+
+#facebook {
+    background-color: $darkblue;
+}
+#pinterest {
+    background-color: $fuchsia;
+}
+#twitter {
+    background-color: $heavenly;
+}
+#linkedin {
+    background-color: $blue;
+}
+#instagram {
+    background-color: $violet;
 }
 
 

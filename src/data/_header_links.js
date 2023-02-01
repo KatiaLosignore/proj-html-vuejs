@@ -6,3 +6,4 @@ export default [
     { text: 'Blogs', url: '#', active: false},
     { text: 'Get in Toch!', url: '#', active: false, button: true},
 ]
+
