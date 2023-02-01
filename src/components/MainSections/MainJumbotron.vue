@@ -11,7 +11,7 @@ export default {
 
 <template>
 
-    <main id="dog">
+    <main>
         <section id="jumbotron">
             <img src='../../assets/img/left-arrow.png' id="prev" alt="left">
             <div class="container h-100 d-flex align-items-center">

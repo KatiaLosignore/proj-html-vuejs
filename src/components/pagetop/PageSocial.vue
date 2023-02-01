@@ -25,13 +25,13 @@ export default {
 
 span {
     margin: 0 2px;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 
 #facebook, #pinterest, #twitter, #linkedin, #instagram {
     color: $white;
-    padding: 0 6px;
+    padding: 0 5px;
     border-radius: 7px;
 }
 
