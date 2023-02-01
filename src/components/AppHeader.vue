@@ -1,9 +1,10 @@
 <script>
 import PageContacts from './pagetop/PageContacts.vue';
 import PageSocial from './pagetop/PageSocial.vue';
+import AppBottom from './MainSections/AppBottom.vue'
 export default {
      name: 'AppHeader',
-     components: { PageContacts, PageSocial },
+     components: { PageContacts, PageSocial, AppBottom },
 
      props: {
         links: Array
@@ -28,8 +29,10 @@ export default {
                     <a href="#"><img src="../assets/img/logo.png" alt="logo"></a>
                     <ul class="d-flex justify-content-center align-items-center">
                         <li v-for='link in links' :key="link.text">
-                            <a :href='link.url' v-text="link.text" :class="{ 'active': link.active, 'button' : link.button}"></a>
+                            <a :href='link.url' v-text="link.text" :class="{ 'active': link.active }"></a>
                         </li>
+                        <li><app-bottom text="Get in Toch!"></app-bottom></li>
+                        
                     </ul>
                 </nav>
             </div>
@@ -64,14 +67,7 @@ export default {
                 &.active {
                     color: $orange;
                 }
-                &.button {
-                    background-color: $orange;
-                    border-radius: 30px;
-                    width: 200px;
-                    padding: 15px;
-                    color: $white;
-                    text-align: center;
-                }
+               
             }
         }
     }

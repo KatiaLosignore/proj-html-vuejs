@@ -4,6 +4,5 @@ export default [
     { text: 'Services', url: '#', active: false},
     { text: 'Training', url: '#', active: false},
     { text: 'Blogs', url: '#', active: false},
-    { text: 'Get in Toch!', url: '#', active: false, button: true},
 ]
 

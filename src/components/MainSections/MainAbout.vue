@@ -46,7 +46,7 @@ export default {
     background-position: right;
     padding-top: 50px;
     background-color: $white;
-    height: 480px;
+    height: 560px;
     margin: 0;
 }
 

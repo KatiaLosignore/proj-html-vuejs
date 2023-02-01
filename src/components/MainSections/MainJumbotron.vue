@@ -1,6 +1,9 @@
 <script>
+import AppBottom from './AppBottom.vue';
 export default {
     name: 'MainJumbotron',
+    components: { AppBottom },
+
     props: {
         title: String,
         text: String,
@@ -20,7 +23,7 @@ export default {
                         <h1 class="text-white">{{ title }}</h1>
                         <p class="text-white pb-3">{{ text }}</p>
                         <div class="d-flex justify-content-center align-items-center">
-                            <a href="#" class="button fw-bold me-3">Get Started</a>
+                            <app-bottom special="Get Started"></app-bottom>
                             <div class="play rounded-3">
                                 <img src='../../assets/img/play.png' alt="play">
                             </div>
@@ -50,22 +53,15 @@ export default {
     position: relative;
 }
 
-.button {
-    background-color: $orange;
-    border-radius: 30px;
-    width: 200px;
-    padding: 17px 35px;
-    color: $white;
-    text-align: center;
-}
 
 .play {
-    width: 55px;
+    width: 50px;
     height: 50px;
     background-color: $lightblue;
 
     img {
         padding: 9px;
+       
     }
 
 }
