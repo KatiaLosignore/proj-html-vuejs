@@ -46,7 +46,7 @@ export default {
 
 .header-top {
     height: 60px;
-    background-color: $green; 
+    background-color: $black; 
 }
 
 .header-bottom {

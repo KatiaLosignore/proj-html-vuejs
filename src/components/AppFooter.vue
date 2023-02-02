@@ -101,7 +101,6 @@ export default {
 
 div {
     color: $orange;
-
 }
 
 hr {
