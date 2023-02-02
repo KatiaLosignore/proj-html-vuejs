@@ -44,10 +44,11 @@ export default {
     position: relative;
 
     .service {
-        color: $grey;
-        font-weight: bold;
+        color: $black;
+        font-weight: 600;  
     }
 
+  
 }
 
 ul li {

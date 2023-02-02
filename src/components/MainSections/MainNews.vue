@@ -23,7 +23,7 @@ export default {
                     <div class="col-3 card-one">
                         <div class="d-flex align-items-center">
                             <img src="../../assets/img/dog-icon.png" id="dog" alt="dog-icon">
-                            <p class="ms-2 mb-4">Rewiew & Rating</p>
+                            <p class="ms-2 mb-4 color-text">Rewiew & Rating</p>
                         </div>
                         <h5 class="mb-4">Over 8000 Customers With 5-Star Review</h5>
                         <p class="mb-5">It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout</p>
@@ -86,6 +86,10 @@ export default {
 
 span {
     color: $yellow;
+}
+.color-text {
+    color: $black;
+    font-weight: 600;
 }
 
 .arrow-left,

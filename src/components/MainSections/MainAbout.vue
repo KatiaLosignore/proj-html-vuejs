@@ -21,7 +21,7 @@ export default {
                     <div class="col-6">
                         <div class="d-flex align-items-center mt-4">
                             <img src="../../assets/img/dog-icon.png" id="dog" alt="dog-icon">
-                            <p class="ms-2 mt-3">{{ paragraph }}</p>
+                            <p class="ms-2 mt-3 color-text">{{ paragraph }}</p>
                         </div>
                         <h1 class="mb-4">{{ title }}</h1>
                         <p>{{ text }}</p>
@@ -46,6 +46,11 @@ export default {
     background-color: $white;
     height: 560px;
     margin: 0;
+}
+
+.color-text {
+    color: $black;
+    font-weight: 600;
 }
 
 
