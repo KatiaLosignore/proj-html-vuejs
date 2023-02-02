@@ -53,7 +53,7 @@ export default {
                         <h3 class="text-white mb-3">Subscribe to Our Newsletter</h3>
                         <div class="input-group mb-3">  
                             <input type="text" class="form-control" v-model.trim="term" :placeholder="placeholder" aria-label="Username">
-                            <button class="input-group-text" @click="$emit('alert-text')">@</button>
+                            <button class="input-group-text" @click="$emit('alert-text',)">@</button>
     
                         </div>
                     </div>
@@ -113,7 +113,7 @@ span {
     background-color: $orange;
     width: 850px;
     height: 190px;
-    margin: 100px auto;
+    margin: 150px auto;
     position: relative;
     z-index: 1;
 }
