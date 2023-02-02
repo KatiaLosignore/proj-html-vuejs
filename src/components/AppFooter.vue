@@ -1,9 +1,8 @@
 <script>
-import PageContacts from './pageInfo/PageContacts.vue';
 import PageSocial from './pageInfo/PageSocial.vue';
 export default {
      name: 'AppFooter',
-     components: { PageContacts, PageSocial},
+     components: { PageSocial },
 
      props: {
         menus: Array
