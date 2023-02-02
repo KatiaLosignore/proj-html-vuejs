@@ -45,7 +45,7 @@ span {
     background-color: $heavenly;
 }
 #linkedin {
-    background-color: $blue;
+    background-color: $skyblue;
 }
 #instagram {
     background-color: $violet;
