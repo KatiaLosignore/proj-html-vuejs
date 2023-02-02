@@ -1,13 +1,15 @@
 <script>
 import AppBottom from './AppBottom.vue';
+
 export default {
     name: 'MainJumbotron',
     components: { AppBottom },
-
+   
     props: {
         title: String,
         text: String,
     },
+   
 
 };
 </script>
@@ -19,10 +21,10 @@ export default {
             <img src='../../assets/img/left-arrow.png' id="prev" alt="left">
             <div class="container h-100 d-flex align-items-center">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-8">
                         <h1 class="text-white">{{ title }}</h1>
-                        <p class="text-white pb-3">{{ text }}</p>
-                        <div class="d-flex justify-content-center align-items-center">
+                        <p class="text-white pb-4 mt-4">{{ text }}</p>
+                        <div class="d-flex justify-content-start align-items-center">
                             <app-bottom special="Get Started"></app-bottom>
                             <div class="play rounded-3">
                                 <img src='../../assets/img/play.png' alt="play">
@@ -66,6 +68,7 @@ export default {
     }
 
 }
+
 
 #prev,
 #next {

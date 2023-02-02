@@ -4,17 +4,19 @@ import MainAbout from './MainSections/MainAbout.vue';
 import MainService from './MainSections/MainService.vue';
 import MainChoose from './MainSections/MainChoose.vue';
 import MainNews from './MainSections/MainNews.vue';
+
 export default {
      name: 'AppMain',
      components: { MainJumbotron, MainAbout, MainService, MainChoose, MainNews },
-  
+     
      props: {
         cards: Array
      },
      methods: {
         OnClick() {
             alert("Attenzione, i parametri inseriti non sono corretti!");   
-        }
+        },
+       
      },
       
 };

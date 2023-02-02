@@ -27,7 +27,7 @@ export default {
     border-color: transparent;
     border-radius: 30px;
     width: 170px;
-    padding: 15px;
+    padding: 10px;
     font-size: 18px;
     color: $white;
     font-weight: 600;
