@@ -1,6 +1,6 @@
 <script>
-import PageContacts from './pagetop/PageContacts.vue';
-import PageSocial from './pagetop/PageSocial.vue';
+import PageContacts from './pageInfo/PageContacts.vue';
+import PageSocial from './pageInfo/PageSocial.vue';
 import AppBottom from './MainSections/AppBottom.vue'
 export default {
      name: 'AppHeader',

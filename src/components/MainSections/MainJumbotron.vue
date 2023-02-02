@@ -58,6 +58,7 @@ export default {
     width: 50px;
     height: 50px;
     background-color: $lightblue;
+    cursor: pointer;
 
     img {
         padding: 9px;

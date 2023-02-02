@@ -58,7 +58,7 @@ ul li {
     padding: 20px;
     margin: 0 20px;
     text-align: center;
-
+    
     p {
         color: $white;
         margin-top: 20px;
@@ -75,6 +75,7 @@ ul li {
         background-color: $yellow;
         padding: 10px;
         border-radius: 50%;
+        cursor: pointer;
     }
 }
 

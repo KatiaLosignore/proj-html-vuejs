@@ -26,6 +26,7 @@ div {
 
     p {
         color: $white;
+        cursor: pointer;
     }
 }
 </style>
