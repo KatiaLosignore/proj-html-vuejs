@@ -80,6 +80,10 @@ ul li {
     }
 }
 
+ul li:hover {
+    background-color: $black;
+}
+
 #dog-left,#dog-right  {
     position: absolute;
     top: 40px;

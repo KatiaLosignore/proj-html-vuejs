@@ -74,6 +74,9 @@ export default {
     }
 }
 
+ul li:hover a{
+    color: $orange;
+}
 
 
 </style>

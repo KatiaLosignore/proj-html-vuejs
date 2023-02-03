@@ -113,6 +113,10 @@ span {
     margin-bottom: 85px;
 }
 
+.arrow-left:hover, .arrow-right:hover {
+    background-color: $black;
+}
+
 .special {
     background-color: $orange;
     width: 850px;

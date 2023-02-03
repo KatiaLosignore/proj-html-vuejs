@@ -34,4 +34,8 @@ export default {
     text-align: center;
     margin-right: 8px;
 }
+
+.button:hover {
+    background-color: $blue;
+}
 </style>
